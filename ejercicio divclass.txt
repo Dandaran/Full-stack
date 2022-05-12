@@ -1,0 +1,8 @@
+1. crea archivo clases-estilo.html, con dos divs, el primero con un h1 y un p, el segundodiv tenga un h2 y 2p
+2.crea hoja de estilo externa estilo-ejercicio.css
+3.enlaza html con css con el link:css (href='')
+4 crea 3 clases de css
+4.1 la primera afecta al primer div
+4.2 la segunda afecta al segundo
+4.3 la tercera le cambie el color y el fondo, le dais propiedad extra
+4.4 el h2 llame a dos clases, el parrafo del segundo div llame a dos clases diferentes
