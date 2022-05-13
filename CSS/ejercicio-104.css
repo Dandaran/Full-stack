@@ -9,6 +9,9 @@ body{
     padding: 8px 16px;
     width: 100%; 
 }
+header.main-header{
+    background-color: rgb(191, 255, 88);
+}
 li.main-nav{
     display: inline-block; background-color: rgb(255, 84, 65);
 }
@@ -18,7 +21,15 @@ ul.main-nav{
 nav.main-nav{
   display: inline-block;  background-color: #08e7f7;
 }
-.main-header > div{}
+.main-header > div{
+    display: inline-block;
+}
 .header{
     background-color:coral;
+}
+button{
+    background-color: rgb(255, 84, 65);
+}
+h1,h2,h3{
+    text-decoration: underline; text-align: center;
 }
