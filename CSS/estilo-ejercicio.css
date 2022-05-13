@@ -1,8 +1,10 @@
 .clase1{
     color: blue;
+    font-weight: 800;
 }
 .clase2 {
     color: blueviolet;
+    font-weight: 400;
 }
 .clase3 {
     color: green;

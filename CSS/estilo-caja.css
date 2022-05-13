@@ -1,0 +1,4 @@
+div{ width:320px; padding:10px; border:5px solid blueviolet; margin: 15px; box-sizing: border-box;}
+#div1{ width: 400px; ; margin-top: 5px; margin-bottom: 10px; margin-left: 15px; margin-right: 20px; background-color: grey; color: rgb(150, 5, 5); box-sizing: border-box royalblue;}
+#div2{ width:600px; padding-left:5px; padding-right:10px; padding-top:15px; padding-bottom:20px; border: 15px solid greenyellow; margin:30px; background-color: salmon; color: darkgreen;}
+#div3{}
