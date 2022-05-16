@@ -1,5 +1,6 @@
 * { 
     box-sizing: border-box;
+    font-family: 'Macondo', cursive;
 }
 body{ 
     margin: 0;
@@ -32,4 +33,44 @@ button{
 }
 h1,h2,h3{
     text-decoration: underline; text-align: center;
+    text-shadow: 3px 2px 5px rgb(255, 136, 0);
+}
+p.uppercase {
+/* Mayúscula */
+text-transform: uppercase;
+}
+p.lowercase {
+/* Minúscula */
+text-transform: lowercase;
+}
+span.capitalize {
+/* Capitalización */
+text-transform: capitalize;
+}
+p.indent {
+    text-indent: 50px;
+}
+h1 {
+    letter-spacing: 3px;
+}
+ h2 {
+    letter-spacing: -3px;
+}
+.main-header_brand {color: #0e4f1f; text-decoration: none; font-weight: bold; font-size: 22px}
+.middle > * {
+    vertical-align: middle;
+} 
+
+.top > * {
+    vertical-align: top;
+}
+.bottom > * {
+    vertical-align: bottom;
+}
+h2 {
+    display: inline-block;
+    margin: 0;
+    width: 150px;
+    text-align: right;
+    font: bold 20px Sans-Serif;
 }
