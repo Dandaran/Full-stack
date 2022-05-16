@@ -1,0 +1,162 @@
+#flex-container {
+    display: flex;
+    flex-direction: column;
+    background-color: aquamarine;
+    align-items: center;
+
+    }
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+    /* align-items: center; */
+}
+.flex-container >div {
+    background-color: blueviolet;
+    width: 50%;
+    margin: 10xp;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    align-items: center;
+}
+
+.flex-containeru {
+display: flex;
+flex-wrap: wrap;
+background-color: blue;
+}
+.flex-containeru > div {
+    background-color: red;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+.flex-containera {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(0, 255, 0);
+}
+.flex-containera > div {
+    background-color: rgb(255, 94, 0);
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+.flex-container-align {
+    display: flex;
+    height: 200px;
+    align-items: stretch;
+    background-color: blue;
+}
+.flex-container-align > div {
+    background-color: red;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+.flex-container-acsa {
+    display: flex;
+    height: 600px;
+    flex-wrap: wrap;
+    align-content: space-around;
+    background-color: rgb(255, 0, 255);
+}.flex-container-acsa > div {
+    background-color: rgb(0, 255, 115);
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+.flex-container-acc {
+    display: flex;
+    height: 600px;
+    flex-wrap: wrap;
+    align-content: center;
+    background-color: rgb(38, 0, 255);
+}.flex-container-acc > div {
+    background-color: rgb(200, 255, 0);
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+.flex-container-acs {
+    display: flex;
+    height: 600px;
+    flex-wrap: wrap;
+    align-content: stretch;
+    background-color: rgb(255, 0, 98);
+}
+.flex-container-acs > div {   
+    background-color: rgb(0, 102, 255); 
+    width: 100px;    margin: 10px; 
+    text-align: center;  
+    line-height: 75px;  
+    font-size: 30px;
+}
+.flex-container-order {
+    display: flex;
+    align-items: stretch;
+    background-color: blue;}
+    
+.flex-container-order > div {
+    background-color: red;
+    color: white;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    }
+.flex-grow {
+    display: flex;
+    align-items: stretch;
+    background-color: #abdf33;
+     }
+.flex-grow > div {
+    background-color: rgb(255, 30, 218);
+    color: white;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    }
+
+.flex-asc {
+    display: flex;
+    height: 600px;
+    background-color: rgb(183, 0, 255);
+    }
+.flex-asc > div {
+    background-color: rgb(207, 255, 74);
+    color: white;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    }
+.flex-ass {
+    display: flex;
+    height: 200px;
+    background-color: rgb(138, 142, 202);
+    }
+.flex-ass > div {
+    background-color: rgb(73, 107, 42);
+    color: white;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    }
