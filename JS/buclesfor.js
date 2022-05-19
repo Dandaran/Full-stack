@@ -14,7 +14,8 @@ for (let i = 0; i < 8; i++) {
 //ejercicio8pg171    
 for (let c = 1; c < 51; c++){
     console.log(c);
-    document.write(c)
+   if (c==50){document.write(c + '<br>')
+   }  else{ document.write(c + ',')}
 }
 //ejercicio9pg171
 for (let b= 0; b < 11; b++ ){
