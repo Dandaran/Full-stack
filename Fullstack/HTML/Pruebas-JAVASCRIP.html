@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba JAVASCRIP(FRONTEND)</title>
+    <script>alert("SORPRISEEE!!");</script>
+<script src="../JS/PRIMERJAVA.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+</script>
+</head>
+<body>
+    <h1>pruebasJS</h1>
+    <p id="demo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum voluptatem, ratione dolorum itaque repellendus vel eligendi velit voluptates eaque sed rerum reiciendis, fuga labore a beatae impedit nemo officia dignissimos.</p>
+    <button type="submit" onclick="myFunction()">clicame</button><button type="submit" onclick="myFunctiona()">clicameame</button>
+    <script>
+        document.write("it's dangerous!");
+        </script>
+        <script>
+            function myFunction() {
+            document.getElementById("demo").innerHTML = "desaparecio!";
+            }
+            </script>
+             
+             <script>
+                $(document).ready(function(){
+                console.log('Librería jQuery cargada');
+                });
+                </script>
+                <script>
+                    // hola
+                    console.log('hola');
+                    // en un lugar de la mancha
+                    console.log('en', 'un', 'lugar', 'de', 'la', 'Mancha');
+                    console.info('Info');
+                    console.warn('Warning');
+                    console.error('Error');
+                    </script>
+<script>
+    const nombre = prompt("Escriba su nombre", "Escriba aquí");
+    console.log(nombre);
+    </script>
+<script>
+    const conf = confirm("Sí o no");
+    // true o fase
+    console.log(conf);
+   
+    // 1000000000000000000
+    console.log(9999999999999999999);
+    // 0.6
+    console.log(0.5+0.1);
+    // 0.30000000000000004
+    console.log(0.1+0.2);
+    // 0.3
+    console.log(Math.round((0.1+0.2)*100)/100);
+    console.log(parseFloat((0.1+0.2).toFixed(1)));
+    // -Infinity
+    console.log(Math.max());
+    // Infinity
+    console.log(Math.min());
+    // ""
+    console.log([]+[]);
+    // "aa"
+    console.log(["a"]+["a"]);
+    // "[object Object]"
+    console.log([]+{});
+    // 0
+    console.log({}+[]);
+    // true
+    console.log(true+true+true===3);
+    // true
+    console.log(true==1);
+    // false
+    console.log(true===1);
+    // 9
+    console.log((!+[]+[]+![]).length);
+    // "91"
+    console.log(9+"1");
+    // 90
+    console.log(91-"1");
+    // true
+    console.log([] == 0);
+</script>
+
+
+</body>
+</html>

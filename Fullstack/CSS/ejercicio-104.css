@@ -1,0 +1,79 @@
+* { 
+    box-sizing: border-box;
+    font-family: 'Macondo', cursive;
+}
+body{ 
+    margin: 0;
+}
+.main-header{
+    background-color: #2ddf5c; 
+    padding: 8px 16px;
+    width: 100%; 
+}
+header.main-header{
+    background-color: rgb(191, 255, 88);
+}
+li.main-nav{
+    display: inline-block; background-color: rgb(255, 84, 65);
+}
+ul.main-nav{
+ display: inline-block;background-color: rgb(103, 103, 255);
+}
+nav.main-nav{
+  display: inline-block;  background-color: #08e7f7;
+}
+.main-header > div{
+    display: inline-block;
+}
+.header{
+    background-color:coral;
+}
+button{
+    background-color: rgb(255, 84, 65);
+}
+h1,h2,h3{
+    text-decoration: underline; text-align: center;
+    text-shadow: 3px 2px 5px rgb(255, 136, 0);
+}
+p.uppercase {
+/* Mayúscula */
+text-transform: uppercase;
+}
+p.lowercase {
+/* Minúscula */
+text-transform: lowercase;
+}
+span.capitalize {
+/* Capitalización */
+text-transform: capitalize;
+}
+p.indent {
+    text-indent: 50px;
+}
+h1 {
+    letter-spacing: 3px;
+}
+ h2 {
+    letter-spacing: -3px;
+}
+.main-header_brand {color: #0e4f1f; text-decoration: none; font-weight: bold; font-size: 22px}
+.middle > * {
+    vertical-align: middle;
+} 
+
+.top > * {
+    vertical-align: top;
+}
+.bottom > * {
+    vertical-align: bottom;
+}
+h2 {
+    display: inline-block;
+    margin: 0;
+    width: 150px;
+    text-align: right;
+    font: bold 20px Sans-Serif;
+}
+.right-aling{
+    text-align: right;
+}
