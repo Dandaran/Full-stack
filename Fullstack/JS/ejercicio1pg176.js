@@ -56,3 +56,15 @@ const resta3 = (s, y, callback) => {
     resta3(8,4, (resultado) => {
         console.log(resultado);
 });
+const multi3 = (z, r, callback) => {
+    callback(z * r);
+};
+    multi3(6,8, (resultado) => {
+        console.log(resultado);
+});
+const divi3 = (t, p, callback) => {
+    callback(t / p);
+};
+    divi3(6,9, (resultado) => {
+        console.log(resultado);
+});
