@@ -68,3 +68,62 @@ const divi3 = (t, p, callback) => {
     divi3(6,9, (resultado) => {
         console.log(resultado);
 });
+//Ejercicio 5: adaptar las cinco funciones del Ejercicio 4 para que las cuatro funciones invoquen el callback una vez han transcurrido 1 segundo (para la función sumar), 2 segundos (para la función restar), 3 segundos (para la función multiplicar) y 4 segundos para dividir (para la función dividir). Añadir un console.log en la última línea del código del programa. Utilizar la herramienta de depuración de Chrome para comprobar cómo se ejecuta el programa.
+
+setTimeout(() => { 
+    const sumar4 = (a, b, callback) => {
+        callback(a + b);
+    };
+        sumar4(3, 5, (resultado) => {
+            console.log("3+5=" + resultado);
+    });
+    setTimeout(() => {
+        const resta4 = (s, y, callback) => {
+            callback(s - y);
+        };
+            resta4(8,4, (resultado) => {
+                console.log("8-4=" + resultado);
+        });   
+    }, 1000);
+}, 2000)
+setTimeout(() => { 
+    const multi4 = (a, b, callback) => {
+        callback(a * b);
+    };
+        multi4(6, 8, (resultado) => {
+            console.log("6*8=" + resultado);
+    });
+    setTimeout(() => {
+        const divi4 = (s, y, callback) => {
+            callback(s / y);
+        };
+            divi4(6, 9, (resultado) => {
+                console.log("6/9=" + resultado);
+        });   
+    }, 3000);
+}, 4000)
+
+// versión corta
+
+
+  
+setTimeout(() => { 
+    console.log(sumar3(3, 5, (resultado) => {
+            console.log("a)3+5=" + resultado);
+    }));
+    setTimeout(() => {
+        console.log(resta3(8,4, (resultado) => {
+                console.log("b)8-4=" + resultado);
+        }));   
+    }, 5000);
+}, 6000)
+setTimeout(() => { 
+    console.log (multi3(6, 8, (resultado) => {
+            console.log("c)6*8=" + resultado);
+    }));
+    setTimeout(() => {
+        console.log(divi3(6, 9, (resultado) => {
+                console.log("d)6/9=" + resultado);
+        }));   
+    }, 7000);
+}, 8000)
