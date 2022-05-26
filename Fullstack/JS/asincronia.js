@@ -48,3 +48,26 @@ consultarDatabase1(function(consulta) {
 console.log(consulta);
 });
 console.log("-Más tareas a realizar...");
+
+//
+
+function saludar(saludo) {
+    if (!saludo) console.log('no hay saludo');
+    else console.log(saludo);
+    }
+    // no hay saludo
+    saludar();
+    // hola
+    saludar('hola');
+    // hola
+    saludar('hola', 'Alejandro');
+//objeto "argumennts"
+function saludar() {
+    const saludo = arguments[0];
+    const nombre = arguments[1];
+    // undefined
+    console.log(arguments[2]);
+    // Adiós, Carlos!
+    console.log(saludo + ', ' + nombre + '!');
+    }
+    saludar('Adiós', 'Carlos');
